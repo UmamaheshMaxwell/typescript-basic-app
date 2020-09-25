@@ -1,0 +1,101 @@
+Typescript ( Developed by Microsoft)
+----------
+Superset of Javascript 
+
+Superset - Anything you can do in javascript can do in typescript
+
+Compiles into standard javascript ( browser can only read javascript)
+
+Can be easily integrated into javascript projects
+
+Designed for developement of large applications
+
+
+What are the advantages
+-----------------------
+
+Static type Checking
+---------------------  
+
+var a =10;  // Javascript
+    a ="uma" // valid
+
+let value: number  =1; // Typescript
+value = "uma" // Invalid
+
+We can check and assign variables, parameters and function types
+
+Types
+------
+string
+number
+boolean
+array
+any
+void
+null
+Tuple
+Enum
+Generics
+
+
+Class based objects
+---------------------
+Object Oriented Programming 
+No Prototypes
+Encapsulation
+Inheritance
+Access Modifiers - public, private, protected
+
+class School {
+    protected display(){
+
+    }
+}
+
+Class Student extends School {
+
+    super.display(){
+
+    }
+}
+
+
+
+ES6 feature 
+------------
+let
+const
+fat arraow functions
+
+Typescript Complier
+-------------------
+Written in typescript itslef
+compile ts files into js
+installed as an npm package
+supports ES6 syntax
+
+Pre-requisites
+------------
+1. Node JS Installed
+2. npm install -g typescript
+
+Error on windows (fix)
+----------------
+tsc.ps1 cannot be loaded because running scripts is disabled on this system
+
+Open Powershell in Administrator mode
+
+Then type : set-executionpolicy remotesigned
+
+And select opetion : A
+
+Error on Mac  (fix)
+-------------
+sudo npm install -g typescript
+
+3. create a project and create a typescript files
+
+4. run the file with command tsc filename.ts 
+
+5. To run and watch the file changes, please use tsc filename.ts --watch/ -w
