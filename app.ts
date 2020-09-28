@@ -12,6 +12,21 @@ let empName : string = "Uma"
 
 let employee: [number, string];
 
+let myVoid: void = undefined;
+
+let myNull: null = null;
+
+let myUndefined: undefined = undefined;
+
+function add(num1, num2):number {
+    return num1 + num2;
+}
+
+function SaveData(data: any): void{
+    Save(data)
+}
+
+
 
 
 
@@ -37,4 +52,8 @@ console.log(strArray)
 console.log(numArray)
 console.log(strNumTuple)
 console.log(employee)
+console.log(myVoid)
+console.log(myNull)
+console.log(myUndefined)
+
 

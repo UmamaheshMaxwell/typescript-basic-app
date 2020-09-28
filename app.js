@@ -8,6 +8,15 @@ var strNumTuple;
 var empId = 1;
 var empName = "Uma";
 var employee;
+var myVoid = undefined;
+var myNull = null;
+var myUndefined = undefined;
+function add(num1, num2) {
+    return num1 + num2;
+}
+function SaveData(data) {
+    Save(data);
+}
 myString = "Hello";
 myNumber = 1;
 myBoolean = true;
@@ -25,3 +34,6 @@ console.log(strArray);
 console.log(numArray);
 console.log(strNumTuple);
 console.log(employee);
+console.log(myVoid);
+console.log(myNull);
+console.log(myUndefined);

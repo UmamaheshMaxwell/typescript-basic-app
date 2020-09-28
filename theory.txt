@@ -32,12 +32,12 @@ number
 boolean
 array
 any
-void
-null
 Tuple
 Enum
 Generics
-
+void
+null
+undefined
 
 Class based objects
 ---------------------
@@ -99,3 +99,22 @@ sudo npm install -g typescript
 4. run the file with command tsc filename.ts 
 
 5. To run and watch the file changes, please use tsc filename.ts --watch/ -w
+
+
+Enums
+------
+Allow us to defined a set of named constants
+
+Using Enums can make it easier to create a set of distinct types.
+
+Typescript provided both numeric and string based Enums
+
+Gnenerics
+----------
+When writing programming, one of the most important aspects is to build 
+reusable components.
+
+Generics offers a way to create reusable components
+
+1. Types safety
+2. Code reusability
