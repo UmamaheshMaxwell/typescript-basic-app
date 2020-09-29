@@ -23,7 +23,7 @@ function add(num1, num2):number {
 }
 
 function SaveData(data: any): void{
-    Save(data)
+    //Save(data)
 }
 
 
